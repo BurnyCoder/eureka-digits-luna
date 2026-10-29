@@ -1,0 +1,66 @@
+[
+  {
+    "id": "loshchilov-hutter-2019-adamw",
+    "title": "Decoupled Weight Decay Regularization",
+    "url": "https://arxiv.org/abs/1711.05101",
+    "summary": "Primary method source: L2 penalty and weight decay differ under adaptive optimizers such as Adam; AdamW decouples the weight shrinkage. The paper reports improved generalization in its tested settings, which motivates but does not establish a benefit for this digits MLP.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "pytorch-adamw-docs",
+    "title": "torch.optim.AdamW",
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html",
+    "summary": "Official API documentation for AdamW arguments and optimizer behavior; the fixture instantiates AdamW with a fixed learning rate and varies its weight_decay argument.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "sklearn-load-digits-docs",
+    "title": "load_digits — scikit-learn documentation",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "summary": "Official documentation states this bundled dataset has 1,797 8x8 handwritten digit images, 64 flattened features, ten classes, and integer pixel values 0–16. The fixture divides these known-scale pixels by 16.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "sklearn-train-test-split-docs",
+    "title": "train_test_split — scikit-learn documentation",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "summary": "Official reference for reproducible random splitting and stratification; the fixture uses stratified splits with fixed seed 42.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "nanda-research-process-2025",
+    "title": "How I Think About My Research Process: Explore, Understand, Distill",
+    "url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "summary": "Neel Nanda's research-process guide describes ideation, exploration, hypothesis testing, and distillation; emphasizes information gain, written highlights, skepticism, alternatives, and returning to exploration when evidence is anomalous. This cycle follows that process as a workflow heuristic.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "lones-2024-ml-pitfalls",
+    "title": "How to avoid machine learning pitfalls: a guide for academic researchers",
+    "url": "https://arxiv.org/abs/2108.02497",
+    "summary": "Research guide covering reliable model building, evaluation, fair comparison, and reporting; informs the checks for leakage, matched comparisons, and narrow interpretation.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "lipton-steinhardt-2018",
+    "title": "Troubling Trends in Machine Learning Scholarship",
+    "url": "https://arxiv.org/abs/1807.03341",
+    "summary": "Primary critique highlighting overclaiming, conflating explanation and speculation, and obscuring what causes empirical gains; informs explicit alternatives and restrained claims here.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  },
+  {
+    "id": "neurips-paper-checklist-guidelines",
+    "title": "NeurIPS Paper Checklist Guidelines",
+    "url": "https://neurips.cc/public/guides/PaperChecklist",
+    "summary": "Official reporting guidance asks authors to align claims with evidence, disclose limitations, and document reproducibility and assets. Used as a reporting reference, not as evidence that this study meets all venue standards.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29T19:06:38Z"
+  }
+]

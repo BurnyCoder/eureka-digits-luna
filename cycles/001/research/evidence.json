@@ -1,0 +1,38 @@
+[
+  {
+    "id": "study-fixture-code",
+    "path": "cycles/001/study.py",
+    "sha256": "34415a875e7f61954cf3813486f46a189d6b647f2e9682552d16db88a6d67d39",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "fixed-protocol",
+    "path": "cycles/001/research/protocol.json",
+    "sha256": "5edcfb3fcda62035f6ea4013f88ebca59b7d75977f49d155af208a2bb50ec257",
+    "analysis_kind": "confirmatory"
+  },
+  {
+    "id": "fixture-check",
+    "path": "cycles/001/research/fixture-check.json",
+    "sha256": "fae584e06bc6fa155b5b50cd8716b3c506f1e3aa0ee5f31d5e93f6e252211288",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "research-review",
+    "path": "cycles/001/reports/research.md",
+    "sha256": "8d5214e6aaeac64bde26de8efb120c6e2269fd9cdaff6c5f58b4f92415d42319",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "research-highlights",
+    "path": "cycles/001/reports/highlights.md",
+    "sha256": "05ec573ca77dc52e30181ad887b992bacbe3d37f531a7e9fb170222e24875fda",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "preregistration",
+    "path": "cycles/001/reports/preregistration.md",
+    "sha256": "763102b81c0701b83942da4349c9a02a8df84c5aa03fd6a6fc658defd0cf14b3",
+    "analysis_kind": "not_applicable"
+  }
+]

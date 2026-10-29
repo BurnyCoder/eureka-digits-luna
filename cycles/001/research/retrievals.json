@@ -1,0 +1,66 @@
+{
+  "loshchilov-hutter-2019-adamw": {
+    "url": "https://arxiv.org/abs/1711.05101",
+    "final_url": "https://arxiv.org/abs/1711.05101",
+    "ok": true,
+    "at": "2026-10-29T19:08:10.659+00:00",
+    "sha256": "e2402d8869fa233343b46661f47048b352b804d0c3e834fc83bb9bb2810377c8",
+    "sample_bytes": 43412
+  },
+  "pytorch-adamw-docs": {
+    "url": "https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html",
+    "final_url": "https://docs.pytorch.org/docs/stable/generated/torch.optim.AdamW.html",
+    "ok": true,
+    "at": "2026-10-29T19:08:10.998+00:00",
+    "sha256": "90db935d7be3466e5b3358e4e7fed06f9638f07bb63710bbd6584beb33dc99a8",
+    "sample_bytes": 1942
+  },
+  "sklearn-load-digits-docs": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "ok": true,
+    "at": "2026-10-29T19:08:11.261+00:00",
+    "sha256": "4fd1b457c1af7eff41cca4d63c93c1a14e49fa29e9ba4d771426aa6759c42b9b",
+    "sample_bytes": 135574
+  },
+  "sklearn-train-test-split-docs": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "ok": true,
+    "at": "2026-10-29T19:08:11.501+00:00",
+    "sha256": "875fc7ad0dbc0323f1724bc9bb7271513c0b9bfafeaeb8d6cbb305f6db4b114d",
+    "sample_bytes": 174897
+  },
+  "nanda-research-process-2025": {
+    "url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "final_url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "ok": true,
+    "at": "2026-10-29T19:08:12.067+00:00",
+    "sha256": "3f30bcb84202fdf1fc7e6529ca7d8124765def2ea8531653ad6793b200e2cede",
+    "sample_bytes": 536217
+  },
+  "lones-2024-ml-pitfalls": {
+    "url": "https://arxiv.org/abs/2108.02497",
+    "final_url": "https://arxiv.org/abs/2108.02497",
+    "ok": true,
+    "at": "2026-10-29T19:08:12.182+00:00",
+    "sha256": "addd3c3fa05a333656638b639055d4fd3908d4db21bb158fe3c001dfdfdef52e",
+    "sample_bytes": 43498
+  },
+  "lipton-steinhardt-2018": {
+    "url": "https://arxiv.org/abs/1807.03341",
+    "final_url": "https://arxiv.org/abs/1807.03341",
+    "ok": true,
+    "at": "2026-10-29T19:08:12.254+00:00",
+    "sha256": "a9f18f292d2d537cbd39b3ed17d228e05f6b69c10b62191e35be0269df026521",
+    "sample_bytes": 44040
+  },
+  "neurips-paper-checklist-guidelines": {
+    "url": "https://neurips.cc/public/guides/PaperChecklist",
+    "final_url": "https://neurips.cc/public/guides/PaperChecklist",
+    "ok": true,
+    "at": "2026-10-29T19:08:13.526+00:00",
+    "sha256": "9f2276b0972e0c71c61a4cb7cc30fb6091930f0b2b2194c32c7da5a70ffc0634",
+    "sample_bytes": 73207
+  }
+}
