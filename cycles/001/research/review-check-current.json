@@ -1,0 +1,65 @@
+{
+  "review_scope": "code/science/citation/reproducibility/security/presentation; review phase only",
+  "core_check": {
+    "status": "passed",
+    "dataset_shape": [
+      1797,
+      64
+    ],
+    "split_sizes": {
+      "train": 1078,
+      "validation": 359,
+      "test": 360
+    },
+    "model_probe_shape": [
+      2,
+      10
+    ],
+    "training_performed": false
+  },
+  "site": {
+    "html_local_links": [
+      [
+        "paper.pdf",
+        true
+      ],
+      [
+        "paper.md",
+        true
+      ],
+      [
+        "data.json",
+        true
+      ]
+    ],
+    "record_count": 15,
+    "unique_html_ids": true,
+    "inline_javascript_node_check_exit": 0,
+    "inline_javascript_stderr": "",
+    "prediction_accuracy_mismatches": [],
+    "primary_conclusion": "inconclusive"
+  },
+  "paper": {
+    "pdf_bytes": 381375,
+    "pdf_page_count": 6,
+    "visually_inspected_pages": [
+      1,
+      2
+    ],
+    "site_pdf_sha256_matches_cycle_pdf": true
+  },
+  "browser_runtime": "unavailable: Work settings disables local browser access",
+  "ledger_repair": {
+    "prior_hash_or_path_mismatches_before_review_update": [
+      "ev-review-report"
+    ],
+    "json_parse": "passed after removal of literal backslash-n suffix"
+  },
+  "analysis_kind": "exploratory",
+  "ledger_after_registration": {
+    "parse": "passed",
+    "entry_count": 44,
+    "unique_ids": true,
+    "path_and_hash_mismatches": []
+  }
+}

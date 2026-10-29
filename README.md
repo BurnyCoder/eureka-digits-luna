@@ -19,9 +19,23 @@ Research is in progress; no final run-status snapshot is available.
 
 | Experiment | Method | Seed | Split | Accuracy | Seconds | Device |
 |---|---|---:|---|---:|---:|---|
+| class_prior_s0 | class_prior | 0 | test | 0.102778 | 0.038 | cpu |
+| logistic_s0 | logistic | 0 | test | 0.955556 | 0.107 | cpu |
 | pilot_regularized_s0 | regularized | 0 | validation | 0.966574 | 7.616 | cuda |
+| regularized_s0 | regularized | 0 | test | 0.963889 | 0.288 | cuda |
+| regularized_s1 | regularized | 1 | test | 0.969444 | 6.002 | cuda |
+| regularized_s2 | regularized | 2 | test | 0.969444 | 2.192 | cuda |
+| sensitivity_s0 | sensitivity | 0 | test | 0.963889 | 2.394 | cuda |
+| sensitivity_s1 | sensitivity | 1 | test | 0.969444 | 2.348 | cuda |
+| sensitivity_s2 | sensitivity | 2 | test | 0.969444 | 2.258 | cuda |
+| shuffled_labels_s0 | shuffled_labels | 0 | test | 0.061111 | 2.333 | cuda |
+| shuffled_labels_s1 | shuffled_labels | 1 | test | 0.116667 | 2.353 | cuda |
+| shuffled_labels_s2 | shuffled_labels | 2 | test | 0.108333 | 2.369 | cuda |
+| unregularized_s0 | unregularized | 0 | test | 0.963889 | 2.235 | cuda |
+| unregularized_s1 | unregularized | 1 | test | 0.969444 | 2.374 | cuda |
+| unregularized_s2 | unregularized | 2 | test | 0.969444 | 2.323 | cuda |
 
-The registered primary comparison is pending; no confirmatory conclusion is available.
+The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap interval [0.000000, 0.000000]. The registered decision is **inconclusive**. The sample standard deviation across seed effects is 0.000000. The interval uses 10000 paired resamples of test examples and conditions on the trained models.
 
 See [full report](cycles/001/reports/summary.md).
 <!-- EUREKA:RESULTS:END -->

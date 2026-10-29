@@ -1,0 +1,34 @@
+{
+  "github": {
+    "sha": "24a79e87da59204d453aa2c69061831b3ecb6828",
+    "pr": "https://github.com/BurnyCoder/eureka-digits-luna/pull/2",
+    "url": "https://github.com/BurnyCoder/eureka-digits-luna",
+    "at": "2026-10-29T19:14:51.911+00:00"
+  },
+  "models": {
+    "repository": "BurnyCoder/eureka-digits-luna-models",
+    "url": "https://huggingface.co/BurnyCoder/eureka-digits-luna-models",
+    "collection": "https://huggingface.co/collections/BurnyCoder/eureka-digits-luna-6ae39b1a9fbf13c0618b07a5",
+    "upload": {
+      "url": "https://huggingface.co/BurnyCoder/eureka-digits-luna-models/commit/dbe485e96c435b0df674e91d233774ac33d83e17"
+    },
+    "verified": true,
+    "at": "2026-10-29T19:14:38.135+00:00"
+  },
+  "pages": {
+    "url": "https://api.github.com/repos/BurnyCoder/eureka-digits-luna/pages",
+    "status": null,
+    "cname": null,
+    "custom_404": false,
+    "html_url": "https://burnycoder.github.io/eureka-digits-luna/",
+    "build_type": "workflow",
+    "source": {
+      "branch": "main",
+      "path": "/"
+    },
+    "public": true,
+    "protected_domain_state": null,
+    "pending_domain_unverified_at": null,
+    "https_enforced": true
+  }
+}
