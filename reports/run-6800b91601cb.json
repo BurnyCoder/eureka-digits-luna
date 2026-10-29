@@ -1,0 +1,216 @@
+{
+  "id": "6800b91601cb",
+  "backend": "codex",
+  "requested_model": "gpt-6-luna",
+  "status": "complete",
+  "message": "All required phases completed",
+  "calls": 10,
+  "active_seconds": 1619.7890036999597,
+  "limits": {
+    "minutes": 60.0,
+    "calls": 20
+  },
+  "policy_sha256": "6a9addc31e8fe730400c32e935c1a62fc7b9f12b615a997f84c0e6025cd3e922",
+  "completed_phases": [
+    "research",
+    "preregister",
+    "core",
+    "pilot",
+    "experiments",
+    "analysis",
+    "review",
+    "publish"
+  ],
+  "attempts": [
+    {
+      "id": 1,
+      "cycle": 1,
+      "phase": "research",
+      "status": "accepted",
+      "started": "2026-10-29T19:05:47.124+00:00",
+      "ended": "2026-10-29T19:08:13.532+00:00",
+      "prompt_sha256": "6dc07000e9b2bc7386aa1c804e3b821282e6c9fba516025f21f192cc1facd476",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1197687,
+        "cached_input_tokens": 1125760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9543,
+        "reasoning_output_tokens": 2380
+      },
+      "searched": true
+    },
+    {
+      "id": 2,
+      "cycle": 1,
+      "phase": "preregister",
+      "status": "accepted",
+      "started": "2026-10-29T19:08:13.577+00:00",
+      "ended": "2026-10-29T19:10:00.206+00:00",
+      "prompt_sha256": "5a959087fbb62988d440845c13de50e68e9cdd0ca3dfbb214dfb74f4a313b8e4",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 442343,
+        "cached_input_tokens": 392192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5620,
+        "reasoning_output_tokens": 1203
+      },
+      "searched": true
+    },
+    {
+      "id": 3,
+      "cycle": 1,
+      "phase": "core",
+      "status": "accepted",
+      "started": "2026-10-29T19:10:00.857+00:00",
+      "ended": "2026-10-29T19:12:15.818+00:00",
+      "prompt_sha256": "f6e062ff467fbacab77d48312db4a527a6c7be1a398d7630efa3a7ad4d28e24e",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 729687,
+        "cached_input_tokens": 668800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 7949,
+        "reasoning_output_tokens": 3228
+      },
+      "searched": true
+    },
+    {
+      "id": 4,
+      "cycle": 1,
+      "phase": "pilot",
+      "status": "accepted",
+      "started": "2026-10-29T19:12:28.679+00:00",
+      "ended": "2026-10-29T19:14:22.086+00:00",
+      "prompt_sha256": "614cc6ce69bb6f30ca468892052ad242dd59776992e6a399857414e3efea314f",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 550735,
+        "cached_input_tokens": 495744,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6366,
+        "reasoning_output_tokens": 1931
+      },
+      "searched": true
+    },
+    {
+      "id": 5,
+      "cycle": 1,
+      "phase": "experiments",
+      "status": "accepted",
+      "started": "2026-10-29T19:14:52.357+00:00",
+      "ended": "2026-10-29T19:17:59.138+00:00",
+      "prompt_sha256": "93045715fea1f3172481114f1726cefbff0940f129556c10525bfd4b6c77b727",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1377580,
+        "cached_input_tokens": 1304192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9670,
+        "reasoning_output_tokens": 2112
+      },
+      "searched": true
+    },
+    {
+      "id": 6,
+      "cycle": 1,
+      "phase": "analysis",
+      "status": "failed",
+      "started": "2026-10-29T19:17:59.201+00:00",
+      "ended": "2026-10-29T19:20:36.247+00:00",
+      "prompt_sha256": "d5a7e9fdd5851d496d0cea895c897dde42a66842d74740baa6726d9f2d5e33a6",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 692056,
+        "cached_input_tokens": 617856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11897,
+        "reasoning_output_tokens": 4663
+      },
+      "searched": true
+    },
+    {
+      "id": 7,
+      "cycle": 1,
+      "phase": "analysis",
+      "status": "accepted",
+      "started": "2026-10-29T19:20:36.250+00:00",
+      "ended": "2026-10-29T19:22:41.456+00:00",
+      "prompt_sha256": "1f3121a68c5ba4c410cfc19cfe8d49838fca12a50104305b0dfe261f7df885e1",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 651948,
+        "cached_input_tokens": 586880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11531,
+        "reasoning_output_tokens": 4389
+      },
+      "searched": true
+    },
+    {
+      "id": 8,
+      "cycle": 1,
+      "phase": "review",
+      "status": "failed",
+      "started": "2026-10-29T19:22:46.581+00:00",
+      "ended": "2026-10-29T19:26:19.738+00:00",
+      "prompt_sha256": "38ebe76f0d76505904541e9ba49bf4f8303df3392879b3d04c116bc8dbc65299",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1659062,
+        "cached_input_tokens": 1558912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13751,
+        "reasoning_output_tokens": 6541
+      },
+      "searched": true
+    },
+    {
+      "id": 9,
+      "cycle": 1,
+      "phase": "review",
+      "status": "accepted",
+      "started": "2026-10-29T19:26:19.741+00:00",
+      "ended": "2026-10-29T19:30:24.506+00:00",
+      "prompt_sha256": "b77950e449f9ac076cb8e653c606d2025bf723d477a8246c583cb4aad63f3a8f",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1988352,
+        "cached_input_tokens": 1894272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14149,
+        "reasoning_output_tokens": 5677
+      },
+      "searched": true
+    },
+    {
+      "id": 10,
+      "cycle": 1,
+      "phase": "publish",
+      "status": "accepted",
+      "started": "2026-10-29T19:30:24.582+00:00",
+      "ended": "2026-10-29T19:32:07.499+00:00",
+      "prompt_sha256": "dd2b0ecec95a5aae83f5ab9aa8a4da329aa9f0257f368ddd4350cc637679f268",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 387762,
+        "cached_input_tokens": 324480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8267,
+        "reasoning_output_tokens": 3393
+      },
+      "searched": false
+    }
+  ]
+}

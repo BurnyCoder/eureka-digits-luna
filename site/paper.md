@@ -9,7 +9,7 @@ fontsize: 10pt
 
 This report records a bounded research cycle executed through Codex. The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap interval [0.000000, 0.000000]. The registered decision is **inconclusive**. The sample standard deviation across seed effects is 0.000000. The interval uses 10000 paired resamples of test examples and conditions on the trained models.
 
-Research is in progress; no final run-status snapshot is available.
+Recorded harness status: **complete**; 8 operational phases accepted. Measurements below do not imply completion of unaccepted phases.
 
 # Context, motivation, and introduction
 
