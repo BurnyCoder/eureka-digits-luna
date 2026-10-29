@@ -15,7 +15,7 @@ Run status: not yet executed. See cycles/ for protocols, code, and generated rep
 <!-- EUREKA:RESULTS:START -->
 ## Recorded results
 
-Research is in progress; no final run-status snapshot is available.
+Recorded harness status: **complete**; 8 operational phases accepted. Measurements below do not imply completion of unaccepted phases.
 
 | Experiment | Method | Seed | Split | Accuracy | Seconds | Device |
 |---|---|---:|---|---:|---:|---|
