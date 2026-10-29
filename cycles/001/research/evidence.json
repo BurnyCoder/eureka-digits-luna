@@ -52,5 +52,17 @@
     "path": "cycles/001/docs/reproduction.md",
     "sha256": "5dc74cdefb0f9fc7f19406835fda1166638b862a4d14a9d5c074a34edb6ccaca",
     "analysis_kind": "not_applicable"
+  },
+  {
+    "id": "pilot_regularized_s0",
+    "path": "cycles/001/results/pilot_regularized_s0.json",
+    "sha256": "9cbcc143e6b79de99c7f8404e35cf7f6c8f51e768bc74022f3c832381629225a",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "pilot-regularized-s0-checkpoint",
+    "path": "cycles/001/models/regularized-s0.safetensors",
+    "sha256": "a57cb6e24f5e7d2a3e83da8efd97233a4b7e0e5b8492f89b3cbe6064cb86cc3d",
+    "analysis_kind": "exploratory"
   }
 ]

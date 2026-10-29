@@ -10,3 +10,18 @@ Only the selected model/backend may be used. The controller handles publication 
 
 
 Run status: not yet executed. See cycles/ for protocols, code, and generated reports.
+
+
+<!-- EUREKA:RESULTS:START -->
+## Recorded results
+
+Research is in progress; no final run-status snapshot is available.
+
+| Experiment | Method | Seed | Split | Accuracy | Seconds | Device |
+|---|---|---:|---|---:|---:|---|
+| pilot_regularized_s0 | regularized | 0 | validation | 0.966574 | 7.616 | cuda |
+
+The registered primary comparison is pending; no confirmatory conclusion is available.
+
+See [full report](cycles/001/reports/summary.md).
+<!-- EUREKA:RESULTS:END -->
