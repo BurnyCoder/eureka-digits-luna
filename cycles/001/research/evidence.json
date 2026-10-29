@@ -2,7 +2,7 @@
   {
     "id": "study-fixture-code",
     "path": "cycles/001/study.py",
-    "sha256": "34415a875e7f61954cf3813486f46a189d6b647f2e9682552d16db88a6d67d39",
+    "sha256": "dbf12650ab0a81f0ed6598dd7a4801920c388d7fe59f32d166cbbf95b6baf2fa",
     "analysis_kind": "exploratory"
   },
   {
@@ -33,6 +33,24 @@
     "id": "preregistration",
     "path": "cycles/001/reports/preregistration.md",
     "sha256": "763102b81c0701b83942da4349c9a02a8df84c5aa03fd6a6fc658defd0cf14b3",
+    "analysis_kind": "not_applicable"
+  },
+  {
+    "id": "core-check-command",
+    "path": "cycles/001/research/checks.json",
+    "sha256": "865f0bc1d22a71719e0f7eb421209cf9555e351a3b33a78fff0fe98c8acc57f5",
+    "analysis_kind": "not_applicable"
+  },
+  {
+    "id": "core-check-result",
+    "path": "cycles/001/research/core-check-result.json",
+    "sha256": "f164df2e60a842422aa3fe12d24c91cb2bc5f6b934665d6268798a44b48e78a8",
+    "analysis_kind": "exploratory"
+  },
+  {
+    "id": "reproduction-guide",
+    "path": "cycles/001/docs/reproduction.md",
+    "sha256": "5dc74cdefb0f9fc7f19406835fda1166638b862a4d14a9d5c074a34edb6ccaca",
     "analysis_kind": "not_applicable"
   }
 ]

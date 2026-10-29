@@ -185,7 +185,13 @@ def main():
         assert protocol['seeds'] == [0,1,2]
         assert set(protocol['weight_decay']) == {'regularized','unregularized','sensitivity','shuffled_labels'}
         assert np.isfinite(x).all() and x.min() >= 0 and x.max() <= 1
-        print(json.dumps({'status':'passed','dataset_shape':list(x.shape),'split_sizes':{k:len(v) for k,v in splits.items()}}))
+        assert len(y) == 1797 and set(np.unique(y)) == set(range(protocol['architecture'][-1]))
+        assert {name:len(indices) for name,indices in splits.items()} == {'train':1078,'validation':359,'test':360}
+        for indices in splits.values():
+            assert set(np.unique(y[indices])) == set(range(protocol['architecture'][-1]))
+        probe = network(protocol)(torch.as_tensor(x[:2]))
+        assert tuple(probe.shape) == (2,protocol['architecture'][-1]) and torch.isfinite(probe).all()
+        print(json.dumps({'status':'passed','dataset_shape':list(x.shape),'split_sizes':{k:len(v) for k,v in splits.items()},'model_probe_shape':list(probe.shape),'training_performed':False}))
         return
     if operation not in ('pilot','experiments'):
         raise ValueError('Use check, pilot, or experiments')
