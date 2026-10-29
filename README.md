@@ -1,15 +1,20 @@
-# eureka-digits-luna
+# Digits research through Codex Luna
 
-Execute the fixed digits validation study supplied in this project's cycle directory.
+An independently recorded validation run of [Auto Eureka Scientist](https://github.com/BurnyCoder/auto-eureka-scientist-agent-harness), using the selected Codex CLI to research, inspect, execute and report a fixed supervised classification study. The supplied PyTorch fixture compares AdamW regularization with an unregularized MLP, logistic regression, a class-prior baseline and shuffled training labels on [UCI digits](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits).
 
-Investigate whether AdamW weight decay improves the held-out accuracy of the fixed ReLU MLP. Follow the immutable supplied protocol. Use the phase-specific tasks supplied by the harness, actual web research, meaningful code checks, real CUDA training when available, pilot publication before sensitivity experiments, all registered comparisons, careful evidence-linked interpretation, and the requirement checklist.
+The primary comparison was inconclusive. The controller accepted the research phases within the bounded run, but the subsequent publication audit found evidence hashes invalidated by Git conversion and regenerated documents. Exact historical bytes were recovered and pinned before final verification. Read the [post-run audit disclosure](reports/post-run-publication.md); these repairs are not additional autonomous model work.
 
-The primary objective of this run is an inspectable completed research cycle, regardless of whether regularization helps, hurts, or has an inconclusive effect. Do not select methods using the test set. Record failures, confounders, alternative explanations, predictions and changes in understanding. Follow Neel Nanda's research stages and prioritize useful learning per unit time. This is a small illustrative study, not evidence of broad scientific reliability or agent superiority.
+![Research architecture](cycles/001/figures/architecture.png)
 
-Only the selected model/backend may be used. The controller handles publication and budgets. Do not launch other LLMs, coding CLIs, or collaborators. Preserve all recorded artifacts.
+[Interactive results](https://burnycoder.github.io/eureka-digits-luna/) · [Paper](cycles/001/reports/paper.pdf) · [Model bundle](https://huggingface.co/BurnyCoder/eureka-digits-luna-models) · [Model collection](https://huggingface.co/collections/BurnyCoder/eureka-digits-luna-6ae39b1a9fbf13c0618b07a5)
 
+## Reproduction and provenance
 
-Run status: not yet executed. See cycles/ for protocols, code, and generated reports.
+Follow the [installation, checkpoint download and regeneration guide](https://github.com/BurnyCoder/auto-eureka-scientist-agent-harness/blob/main/docs/reproduction.md). The locked harness environment provides the `eureka render` and `eureka verify` commands; no further model calls are required to regenerate saved measurements. The original [protocol](cycles/001/research/protocol.json), [training implementation](cycles/001/study.py), saved predictions, losses and publication history are retained.
+
+The workflow applies [Neel Nanda's research process](https://www.alignmentforum.org/s/5GT3yoYM9gRmMEKqL): record objectives and alternatives, run informative probes, compare observations with predictions, and distill narrow claims. [Methods and interpretation](cycles/001/reports/interpretation.md) distinguish the registered primary contrast from descriptive sensitivity and control comparisons. Training used CUDA for neural models; the simple baselines ran on CPU. The reported model identifier was requested by the harness; the CLI did not expose a resolved snapshot.
+
+This supplied-fixture development trial does not establish provider superiority or general scientific reliability. The results below are generated from saved predictions. Uncertainty conditions on the fitted models and example split; the degenerate interval is not an equivalence test.
 
 
 <!-- EUREKA:RESULTS:START -->

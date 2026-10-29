@@ -1,0 +1,79 @@
+[
+  {
+    "id": "claim-primary-no-observed-benefit",
+    "text": "In the registered fixed-MLP comparison, the positive directional prediction for AdamW decay 0.01 over zero decay was not observed: each matched seed has identical test correctness outcomes in the preserved predictions.",
+    "analysis_kind": "confirmatory",
+    "evidence": [
+      "regularized_s0",
+      "regularized_s1",
+      "regularized_s2",
+      "unregularized_s0",
+      "unregularized_s1",
+      "unregularized_s2"
+    ],
+    "limitations": "This is a narrow result for the registered architecture, optimization recipe, example-level split, and seeds. Identical correctness does not establish identical logits, losses, parameters, or optimization trajectories. No equivalence margin was specified, so the observed null is not evidence of equivalence."
+  },
+  {
+    "id": "claim-bootstrap-conditional",
+    "text": "The post-run paired bootstrap summary is degenerate at zero because paired correctness outcomes agree; this resampling calculation is exploratory and conditional on the fitted models and fixed test examples.",
+    "analysis_kind": "exploratory",
+    "evidence": [
+      "ev-experiment-analysis",
+      "regularized_s0",
+      "regularized_s1",
+      "regularized_s2",
+      "unregularized_s0",
+      "unregularized_s1",
+      "unregularized_s2"
+    ],
+    "limitations": "It does not quantify retraining, split-to-split, writer-level, or distribution-shift uncertainty. No equivalence margin was registered."
+  },
+  {
+    "id": "claim-shuffled-label-diagnostic",
+    "text": "The shuffled-label controls are far below the real-label MLP arms and near the ten-class chance reference, consistent with their intended diagnostic role; this does not identify the causal effect of weight decay.",
+    "analysis_kind": "exploratory",
+    "evidence": [
+      "shuffled_labels_s0",
+      "shuffled_labels_s1",
+      "shuffled_labels_s2",
+      "regularized_s0",
+      "regularized_s1",
+      "regularized_s2",
+      "class_prior_s0"
+    ],
+    "limitations": "This is a descriptive control check, not a registered inferential comparison. It cannot rule out every data, model, or implementation issue."
+  },
+  {
+    "id": "claim-literature-motivation-not-prediction",
+    "text": "Decoupled weight decay differs from adding an L2 penalty under adaptive methods, and prior work reports results in its tested settings. These sources motivate the comparison but do not predict a benefit for this digits MLP.",
+    "analysis_kind": "not_applicable",
+    "evidence": [
+      "loshchilov-hutter-2019-adamw",
+      "pytorch-adamw-docs"
+    ],
+    "limitations": "The cited work and API documentation do not establish an effect for this architecture, data split, decay value, or training budget."
+  },
+  {
+    "id": "claim-provenance-checks",
+    "text": "A post-run audit recomputed accuracy from saved predictions and labels, checked common test IDs and labels, and verified checkpoint reload flags across experiment arms. These checks reduce ordinary metric and provenance concerns but do not establish that the implementation is free of all conceptual or software defects.",
+    "analysis_kind": "exploratory",
+    "evidence": [
+      "ev-experiment-analysis",
+      "regularized_s0",
+      "regularized_s1",
+      "regularized_s2",
+      "unregularized_s0",
+      "unregularized_s1",
+      "unregularized_s2",
+      "sensitivity_s0",
+      "sensitivity_s1",
+      "sensitivity_s2",
+      "shuffled_labels_s0",
+      "shuffled_labels_s1",
+      "shuffled_labels_s2",
+      "logistic_s0",
+      "class_prior_s0"
+    ],
+    "limitations": "This is a post-hoc audit of supplied records and code; it is not independent replication or exhaustive implementation verification."
+  }
+]
