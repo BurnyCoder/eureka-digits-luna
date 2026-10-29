@@ -67,6 +67,10 @@ The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap 
 
 *Recorded learning curves.*
 
+![First saved test examples; no correctness-based selection](figures/examples.png)
+
+*First saved test examples; no correctness-based selection.*
+
 # Claims and evidence
 
 - **claim-primary-no-observed-benefit**: In the registered fixed-MLP comparison, the positive directional prediction for AdamW decay 0.01 over zero decay was not observed: each matched seed has identical test correctness outcomes in the preserved predictions. Evidence: [regularized_s0](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/regularized_s0.json), [regularized_s1](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/regularized_s1.json), [regularized_s2](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/regularized_s2.json), [unregularized_s0](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/unregularized_s0.json), [unregularized_s1](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/unregularized_s1.json), [unregularized_s2](https://github.com/BurnyCoder/eureka-digits-luna/blob/main/cycles/001/results/unregularized_s2.json). Limitations: This is a narrow result for the registered architecture, optimization recipe, example-level split, and seeds. Identical correctness does not establish identical logits, losses, parameters, or optimization trajectories. No equivalence margin was specified, so the observed null is not evidence of equivalence.
