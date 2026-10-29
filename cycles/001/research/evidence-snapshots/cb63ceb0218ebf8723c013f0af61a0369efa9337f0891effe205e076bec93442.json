@@ -1,0 +1,1 @@
+{"status": "passed", "dataset_shape": [1797, 64], "split_sizes": {"train": 1078, "validation": 359, "test": 360}, "model_probe_shape": [2, 10], "training_performed": false}

@@ -1,0 +1,52 @@
+{
+  "id": "experiment-analysis",
+  "analysis_kind": "exploratory",
+  "n_test": 360,
+  "seed_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mean_paired_difference": 0.0,
+  "sample_sd_seed_differences": 0.0,
+  "paired_conditional_bootstrap_95": [
+    0.0,
+    0.0
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026,
+  "accuracies": {
+    "regularized_s0": 0.9638888888888889,
+    "regularized_s1": 0.9694444444444444,
+    "regularized_s2": 0.9694444444444444,
+    "unregularized_s0": 0.9638888888888889,
+    "unregularized_s1": 0.9694444444444444,
+    "unregularized_s2": 0.9694444444444444,
+    "sensitivity_s0": 0.9638888888888889,
+    "sensitivity_s1": 0.9694444444444444,
+    "sensitivity_s2": 0.9694444444444444,
+    "shuffled_labels_s0": 0.06111111111111111,
+    "shuffled_labels_s1": 0.11666666666666667,
+    "shuffled_labels_s2": 0.10833333333333334,
+    "logistic_s0": 0.9555555555555556,
+    "class_prior_s0": 0.10277777777777777
+  },
+  "checkpoint_reload_verified_all": true,
+  "result_hashes": {
+    "regularized_s0": "0ea86b83e90fadec8c759ca1847f893c399c053d382add1fbbe7bdac10b2009a",
+    "regularized_s1": "aff4b2f2ec0cddf479316b71faca52b169d4d4e7cc7d53b8753da820fcff6f84",
+    "regularized_s2": "6898ff2b0887249ebf6d8501281d77b29e128b56fe3a942cbd4f15d159a04910",
+    "unregularized_s0": "7e06940304c973c057ed416137d557e37543b1d17bfc44dd19f09f97333cdabd",
+    "unregularized_s1": "571554facaad52089ff8d43fce3a4565b2e6a042bbb84ec29c73df9e737712fd",
+    "unregularized_s2": "cb5932a06763bede9ff49e10efe4a4b2e53d12da442d5ab81b789e25cccf92fc",
+    "sensitivity_s0": "ed8b9a9cb4455d8f1c2d62aa7d38a342e2412d66fe072026c1a09c7fd63a04bd",
+    "sensitivity_s1": "d47c10f508291dee18ce9fbca454e78260013022071e9f69d04845b243ff6fe9",
+    "sensitivity_s2": "cb184a77f0801f57e65a80fb79522dc8779198e973600eb236ee90f9cafee41f",
+    "shuffled_labels_s0": "6dcc52e7d63125bd0d7c8b18e81b0550549d74a64b75f255e745c24a5ccf1de2",
+    "shuffled_labels_s1": "5fb96639d66298e083ba3c25e536fb38edb344ba38b14539152826ca91f3203b",
+    "shuffled_labels_s2": "5b2c7f4a9d8dab5e15caa206074b0311b339447ff50b5b0846d71eadf4c134bb",
+    "logistic_s0": "1255652ea16e7d13c4d106af82b46dcd57a48b703dd94c30c0022871697c5cff",
+    "class_prior_s0": "0a687d0214ffcce40775725e7056610dfdcae2e224805e7fa4281a690f2bfbc6"
+  },
+  "interpretation_limit": "Bootstrap is conditional on fitted models and fixed example split."
+}

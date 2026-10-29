@@ -1,51 +1,59 @@
 [
   {
     "id": "ev-study-fixture-code",
-    "path": "cycles/001/study.py",
+    "path": "cycles/001/research/evidence-snapshots/dbf12650ab0a81f0ed6598dd7a4801920c388d7fe59f32d166cbbf95b6baf2fa.py",
     "sha256": "dbf12650ab0a81f0ed6598dd7a4801920c388d7fe59f32d166cbbf95b6baf2fa",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/study.py"
   },
   {
     "id": "ev-fixed-protocol",
-    "path": "cycles/001/research/protocol.json",
+    "path": "cycles/001/research/evidence-snapshots/5edcfb3fcda62035f6ea4013f88ebca59b7d75977f49d155af208a2bb50ec257.json",
     "sha256": "5edcfb3fcda62035f6ea4013f88ebca59b7d75977f49d155af208a2bb50ec257",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/research/protocol.json"
   },
   {
     "id": "ev-fixture-check",
-    "path": "cycles/001/research/fixture-check.json",
+    "path": "cycles/001/research/evidence-snapshots/fae584e06bc6fa155b5b50cd8716b3c506f1e3aa0ee5f31d5e93f6e252211288.json",
     "sha256": "fae584e06bc6fa155b5b50cd8716b3c506f1e3aa0ee5f31d5e93f6e252211288",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/fixture-check.json"
   },
   {
     "id": "ev-research-review",
-    "path": "cycles/001/reports/research.md",
+    "path": "cycles/001/research/evidence-snapshots/8d5214e6aaeac64bde26de8efb120c6e2269fd9cdaff6c5f58b4f92415d42319.md",
     "sha256": "8d5214e6aaeac64bde26de8efb120c6e2269fd9cdaff6c5f58b4f92415d42319",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/research.md"
   },
   {
     "id": "ev-preregistration",
-    "path": "cycles/001/reports/preregistration.md",
+    "path": "cycles/001/research/evidence-snapshots/763102b81c0701b83942da4349c9a02a8df84c5aa03fd6a6fc658defd0cf14b3.md",
     "sha256": "763102b81c0701b83942da4349c9a02a8df84c5aa03fd6a6fc658defd0cf14b3",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/reports/preregistration.md"
   },
   {
     "id": "ev-core-check-command",
-    "path": "cycles/001/research/checks.json",
+    "path": "cycles/001/research/evidence-snapshots/865f0bc1d22a71719e0f7eb421209cf9555e351a3b33a78fff0fe98c8acc57f5.json",
     "sha256": "865f0bc1d22a71719e0f7eb421209cf9555e351a3b33a78fff0fe98c8acc57f5",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/research/checks.json"
   },
   {
     "id": "ev-core-check-result",
-    "path": "cycles/001/research/core-check-result.json",
+    "path": "cycles/001/research/evidence-snapshots/f164df2e60a842422aa3fe12d24c91cb2bc5f6b934665d6268798a44b48e78a8.json",
     "sha256": "f164df2e60a842422aa3fe12d24c91cb2bc5f6b934665d6268798a44b48e78a8",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/core-check-result.json"
   },
   {
     "id": "ev-reproduction-guide",
-    "path": "cycles/001/docs/reproduction.md",
+    "path": "cycles/001/research/evidence-snapshots/5dc74cdefb0f9fc7f19406835fda1166638b862a4d14a9d5c074a34edb6ccaca.md",
     "sha256": "5dc74cdefb0f9fc7f19406835fda1166638b862a4d14a9d5c074a34edb6ccaca",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/docs/reproduction.md"
   },
   {
     "id": "ev-pilot-regularized-s0-checkpoint",
@@ -55,224 +63,261 @@
   },
   {
     "id": "ev-class_prior_s0",
-    "path": "cycles/001/results/class_prior_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/0a687d0214ffcce40775725e7056610dfdcae2e224805e7fa4281a690f2bfbc6.json",
     "sha256": "0a687d0214ffcce40775725e7056610dfdcae2e224805e7fa4281a690f2bfbc6",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/class_prior_s0.json"
   },
   {
     "id": "ev-logistic_s0",
-    "path": "cycles/001/results/logistic_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/1255652ea16e7d13c4d106af82b46dcd57a48b703dd94c30c0022871697c5cff.json",
     "sha256": "1255652ea16e7d13c4d106af82b46dcd57a48b703dd94c30c0022871697c5cff",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/logistic_s0.json"
   },
   {
     "id": "ev-pilot_regularized_s0",
-    "path": "cycles/001/results/pilot_regularized_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/20e7162d61628aa1bd556bf272dab785fe93470a179fb84f78c15d9049290103.json",
     "sha256": "20e7162d61628aa1bd556bf272dab785fe93470a179fb84f78c15d9049290103",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/pilot_regularized_s0.json"
   },
   {
     "id": "ev-regularized_s0",
-    "path": "cycles/001/results/regularized_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/0ea86b83e90fadec8c759ca1847f893c399c053d382add1fbbe7bdac10b2009a.json",
     "sha256": "0ea86b83e90fadec8c759ca1847f893c399c053d382add1fbbe7bdac10b2009a",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/regularized_s0.json"
   },
   {
     "id": "ev-regularized_s1",
-    "path": "cycles/001/results/regularized_s1.json",
+    "path": "cycles/001/research/evidence-snapshots/aff4b2f2ec0cddf479316b71faca52b169d4d4e7cc7d53b8753da820fcff6f84.json",
     "sha256": "aff4b2f2ec0cddf479316b71faca52b169d4d4e7cc7d53b8753da820fcff6f84",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/regularized_s1.json"
   },
   {
     "id": "ev-regularized_s2",
-    "path": "cycles/001/results/regularized_s2.json",
+    "path": "cycles/001/research/evidence-snapshots/6898ff2b0887249ebf6d8501281d77b29e128b56fe3a942cbd4f15d159a04910.json",
     "sha256": "6898ff2b0887249ebf6d8501281d77b29e128b56fe3a942cbd4f15d159a04910",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/regularized_s2.json"
   },
   {
     "id": "ev-sensitivity_s0",
-    "path": "cycles/001/results/sensitivity_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/ed8b9a9cb4455d8f1c2d62aa7d38a342e2412d66fe072026c1a09c7fd63a04bd.json",
     "sha256": "ed8b9a9cb4455d8f1c2d62aa7d38a342e2412d66fe072026c1a09c7fd63a04bd",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/sensitivity_s0.json"
   },
   {
     "id": "ev-sensitivity_s1",
-    "path": "cycles/001/results/sensitivity_s1.json",
+    "path": "cycles/001/research/evidence-snapshots/d47c10f508291dee18ce9fbca454e78260013022071e9f69d04845b243ff6fe9.json",
     "sha256": "d47c10f508291dee18ce9fbca454e78260013022071e9f69d04845b243ff6fe9",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/sensitivity_s1.json"
   },
   {
     "id": "ev-sensitivity_s2",
-    "path": "cycles/001/results/sensitivity_s2.json",
+    "path": "cycles/001/research/evidence-snapshots/cb184a77f0801f57e65a80fb79522dc8779198e973600eb236ee90f9cafee41f.json",
     "sha256": "cb184a77f0801f57e65a80fb79522dc8779198e973600eb236ee90f9cafee41f",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/sensitivity_s2.json"
   },
   {
     "id": "ev-shuffled_labels_s0",
-    "path": "cycles/001/results/shuffled_labels_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/6dcc52e7d63125bd0d7c8b18e81b0550549d74a64b75f255e745c24a5ccf1de2.json",
     "sha256": "6dcc52e7d63125bd0d7c8b18e81b0550549d74a64b75f255e745c24a5ccf1de2",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/shuffled_labels_s0.json"
   },
   {
     "id": "ev-shuffled_labels_s1",
-    "path": "cycles/001/results/shuffled_labels_s1.json",
+    "path": "cycles/001/research/evidence-snapshots/5fb96639d66298e083ba3c25e536fb38edb344ba38b14539152826ca91f3203b.json",
     "sha256": "5fb96639d66298e083ba3c25e536fb38edb344ba38b14539152826ca91f3203b",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/shuffled_labels_s1.json"
   },
   {
     "id": "ev-shuffled_labels_s2",
-    "path": "cycles/001/results/shuffled_labels_s2.json",
+    "path": "cycles/001/research/evidence-snapshots/5b2c7f4a9d8dab5e15caa206074b0311b339447ff50b5b0846d71eadf4c134bb.json",
     "sha256": "5b2c7f4a9d8dab5e15caa206074b0311b339447ff50b5b0846d71eadf4c134bb",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/results/shuffled_labels_s2.json"
   },
   {
     "id": "ev-unregularized_s0",
-    "path": "cycles/001/results/unregularized_s0.json",
+    "path": "cycles/001/research/evidence-snapshots/7e06940304c973c057ed416137d557e37543b1d17bfc44dd19f09f97333cdabd.json",
     "sha256": "7e06940304c973c057ed416137d557e37543b1d17bfc44dd19f09f97333cdabd",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/unregularized_s0.json"
   },
   {
     "id": "ev-unregularized_s1",
-    "path": "cycles/001/results/unregularized_s1.json",
+    "path": "cycles/001/research/evidence-snapshots/571554facaad52089ff8d43fce3a4565b2e6a042bbb84ec29c73df9e737712fd.json",
     "sha256": "571554facaad52089ff8d43fce3a4565b2e6a042bbb84ec29c73df9e737712fd",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/unregularized_s1.json"
   },
   {
     "id": "ev-unregularized_s2",
-    "path": "cycles/001/results/unregularized_s2.json",
+    "path": "cycles/001/research/evidence-snapshots/cb5932a06763bede9ff49e10efe4a4b2e53d12da442d5ab81b789e25cccf92fc.json",
     "sha256": "cb5932a06763bede9ff49e10efe4a4b2e53d12da442d5ab81b789e25cccf92fc",
-    "analysis_kind": "confirmatory"
+    "analysis_kind": "confirmatory",
+    "original_path": "cycles/001/results/unregularized_s2.json"
   },
   {
     "id": "ev-experiment-analysis",
-    "path": "cycles/001/research/experiment-analysis.json",
+    "path": "cycles/001/research/evidence-snapshots/883742aa4f61aa0c28f53cb0fb6c7df1496c64d382281e8a24323703769f5b06.json",
     "sha256": "883742aa4f61aa0c28f53cb0fb6c7df1496c64d382281e8a24323703769f5b06",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/experiment-analysis.json"
   },
   {
     "id": "ev-experiment-analysis-code",
-    "path": "cycles/001/research/analyze_experiments.py",
+    "path": "cycles/001/research/evidence-snapshots/4bbc5570426c5d367da1bfee6de5295892c3c8a300900613fb4320e995fdb36f.py",
     "sha256": "4bbc5570426c5d367da1bfee6de5295892c3c8a300900613fb4320e995fdb36f",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/research/analyze_experiments.py"
   },
   {
     "id": "ev-experiment-evidence-registration",
-    "path": "cycles/001/research/register_experiment_evidence.py",
+    "path": "cycles/001/research/evidence-snapshots/9777f2351fbb3bbc92b9e2847a75101ca70994e5fad849e13fffe3e7b7137252.py",
     "sha256": "9777f2351fbb3bbc92b9e2847a75101ca70994e5fad849e13fffe3e7b7137252",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/research/register_experiment_evidence.py"
   },
   {
     "id": "ev-experiment-report",
-    "path": "cycles/001/reports/experiments.md",
+    "path": "cycles/001/research/evidence-snapshots/4ac6ca5ad3763b913b84e6267cc2caedcf72719161ca5d7f2eaa24b6ab7e2018.md",
     "sha256": "4ac6ca5ad3763b913b84e6267cc2caedcf72719161ca5d7f2eaa24b6ab7e2018",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/experiments.md"
   },
   {
     "id": "ev-research-highlights",
-    "path": "cycles/001/reports/highlights.md",
+    "path": "cycles/001/research/evidence-snapshots/d38c3bdab5bd8db61626d333a7c99282ea73748ca483a35bc5887b2a1fa63e75.md",
     "sha256": "d38c3bdab5bd8db61626d333a7c99282ea73748ca483a35bc5887b2a1fa63e75",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/highlights.md"
   },
   {
     "id": "ev-analysis-requirements",
-    "path": "cycles/001/research/requirements.json",
+    "path": "cycles/001/research/evidence-snapshots/b8e8b90ef6f0578a58baf68400dfbb0244927f48508bd072e06e3915891f0846.json",
     "sha256": "b8e8b90ef6f0578a58baf68400dfbb0244927f48508bd072e06e3915891f0846",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/research/requirements.json"
   },
   {
     "id": "ev-analysis-claims",
-    "path": "cycles/001/research/claims.json",
+    "path": "cycles/001/research/evidence-snapshots/4546df3367a9ba97dc11a10bdf75ecc9369cffcada3500858338228e6b6fe2d4.json",
     "sha256": "4546df3367a9ba97dc11a10bdf75ecc9369cffcada3500858338228e6b6fe2d4",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/claims.json"
   },
   {
     "id": "ev-analysis-interpretation",
-    "path": "cycles/001/reports/interpretation.md",
+    "path": "cycles/001/research/evidence-snapshots/003e3fbb3f99e6b717ca7549270baf52f7567d778e2fc8ad53b29e8d67de747d.md",
     "sha256": "003e3fbb3f99e6b717ca7549270baf52f7567d778e2fc8ad53b29e8d67de747d",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/interpretation.md"
   },
   {
     "id": "ev-review-check",
-    "path": "cycles/001/research/review-check.json",
+    "path": "cycles/001/research/evidence-snapshots/cb63ceb0218ebf8723c013f0af61a0369efa9337f0891effe205e076bec93442.json",
     "sha256": "cb63ceb0218ebf8723c013f0af61a0369efa9337f0891effe205e076bec93442",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-check.json"
   },
   {
     "id": "ev-review-report",
-    "path": "cycles/001/reports/review.md",
+    "path": "cycles/001/research/evidence-snapshots/aca04418a0879282e46e42b79c92aea1564985b9df9ff5f81c84c866ebb9f664.md",
     "sha256": "aca04418a0879282e46e42b79c92aea1564985b9df9ff5f81c84c866ebb9f664",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/review.md"
   },
   {
     "id": "ev-review-site-index",
-    "path": "site/index.html",
+    "path": "cycles/001/research/evidence-snapshots/d6ffc8cd9468ef5391a771e7ed6fb43c511f0844a375542ee5be49fbd4c84369.html",
     "sha256": "d6ffc8cd9468ef5391a771e7ed6fb43c511f0844a375542ee5be49fbd4c84369",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "site/index.html"
   },
   {
     "id": "ev-review-site-data",
-    "path": "site/data.json",
+    "path": "cycles/001/research/evidence-snapshots/dd957a82ce1984636f44dbeb6fc789dd4a284a81f94e8a8b1e2e8777d8ba5e0d.json",
     "sha256": "dd957a82ce1984636f44dbeb6fc789dd4a284a81f94e8a8b1e2e8777d8ba5e0d",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "site/data.json"
   },
   {
     "id": "ev-review-site-paper-source",
-    "path": "site/paper.md",
+    "path": "cycles/001/research/evidence-snapshots/d7c1ce84adb43ccbe7c697f038216bcc44e2ec306fe187ac889c14fbd7113ddd.md",
     "sha256": "d7c1ce84adb43ccbe7c697f038216bcc44e2ec306fe187ac889c14fbd7113ddd",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "site/paper.md"
   },
   {
     "id": "ev-review-site-pdf",
-    "path": "site/paper.pdf",
+    "path": "cycles/001/research/evidence-snapshots/157ab943e06ecb659099eeda63ea3c3ff3cf4382a1a52bf379ad15cf29726408.pdf",
     "sha256": "157ab943e06ecb659099eeda63ea3c3ff3cf4382a1a52bf379ad15cf29726408",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "site/paper.pdf"
   },
   {
     "id": "ev-review-cycle-paper",
-    "path": "cycles/001/reports/paper.pdf",
+    "path": "cycles/001/research/evidence-snapshots/157ab943e06ecb659099eeda63ea3c3ff3cf4382a1a52bf379ad15cf29726408.pdf",
     "sha256": "157ab943e06ecb659099eeda63ea3c3ff3cf4382a1a52bf379ad15cf29726408",
-    "analysis_kind": "not_applicable"
+    "analysis_kind": "not_applicable",
+    "original_path": "cycles/001/reports/paper.pdf"
   },
   {
     "id": "ev-review-check-current",
-    "path": "cycles/001/research/review-check-current.json",
+    "path": "cycles/001/research/evidence-snapshots/237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571.json",
     "sha256": "237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-check-current.json"
   },
   {
     "id": "ev-review-paper-page-1",
-    "path": "cycles/001/research/review-paper-1.png",
+    "path": "cycles/001/research/evidence-snapshots/892b71f1496986f4e82ad945e2413b68baf6bbfb308e81ff3e1652f27772414b.png",
     "sha256": "892b71f1496986f4e82ad945e2413b68baf6bbfb308e81ff3e1652f27772414b",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-paper-1.png"
   },
   {
     "id": "ev-review-paper-page-2",
-    "path": "cycles/001/research/review-paper-2.png",
+    "path": "cycles/001/research/evidence-snapshots/46ff81317d9862582c04642e346b12f702a7a97af328b074a904d7e9b402c783.png",
     "sha256": "46ff81317d9862582c04642e346b12f702a7a97af328b074a904d7e9b402c783",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-paper-2.png"
   },
   {
     "id": "ev-evidence-ledger",
-    "path": "cycles/001/research/review-check-current.json",
+    "path": "cycles/001/research/evidence-snapshots/237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571.json",
     "sha256": "237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-check-current.json"
   },
   {
     "id": "ev-review-browser-availability",
-    "path": "cycles/001/research/review-check-current.json",
+    "path": "cycles/001/research/evidence-snapshots/237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571.json",
     "sha256": "237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-check-current.json"
   },
   {
     "id": "ev-review-pdf-metadata",
-    "path": "cycles/001/research/review-check-current.json",
+    "path": "cycles/001/research/evidence-snapshots/237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571.json",
     "sha256": "237a704dec6b71f1a867c92b9c260e6e03b5cc2c6d9f34d70122bbe56ecc9571",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-check-current.json"
   },
   {
     "id": "ev-final-report",
-    "path": "cycles/001/reports/final.md",
+    "path": "cycles/001/research/evidence-snapshots/5d01f2ba7f427da4a52ff8048df582bc90befbf14f620656311c952a48318bb0.md",
     "sha256": "5d01f2ba7f427da4a52ff8048df582bc90befbf14f620656311c952a48318bb0",
-    "analysis_kind": "exploratory"
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/reports/final.md"
   }
 ]
