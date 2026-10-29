@@ -9,3 +9,10 @@
 - **Learning:** Literature supports AdamW as a distinct decoupled regularization method and reports benefits in other settings; it supplies no valid basis to assume that this fixed digits result must be positive. Preserve positive, negative, and inconclusive outcomes symmetrically.
 
 No model has been trained and no result has been excluded.
+
+## 2026-10-29 — registered comparisons, after pilot publication
+
+- **Observation:** The complete registered comparison finished successfully. Regularized, unregularized, and 0.001-decay MLPs had identical test accuracies for each seed: 96.39%, 96.94%, and 96.94%. The matched primary differences were all zero; paired conditional bootstrap interval was exactly [0, 0]. Evidence: `experiment-analysis` and the fourteen run IDs in `../research/evidence.json`.
+- **Control/baseline observations:** Shuffled-label accuracies were 6.11%, 11.67%, and 10.83%; logistic regression was 95.56%; class prior was 10.28%. The control is consistent with the expected loss of useful signal after shuffling labels. Auxiliary comparisons remain exploratory/descriptive.
+- **Learning:** The directional prediction of a positive benefit was not observed. An interval of exactly zero here results from identical paired correctness outcomes and does not establish equivalence, identify an effect on logits/loss/weights, or generalize beyond this split and training recipe.
+- **Checks:** The separate analysis recomputed accuracy from predictions, verified identical test IDs and labels, and confirmed checkpoint reload flags for every arm. All neural arms ran on CUDA. No arm failed or was excluded, and no protocol change was made.
