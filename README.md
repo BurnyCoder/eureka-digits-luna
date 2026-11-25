@@ -6,7 +6,7 @@ The primary comparison was inconclusive. The controller accepted the research ph
 
 ![Research architecture](cycles/001/figures/architecture.png)
 
-[Interactive results](https://burnycoder.github.io/eureka-digits-luna/) · [Paper](cycles/001/reports/paper.pdf) · [Model bundle](https://huggingface.co/BurnyCoder/eureka-digits-luna-models) · [Model collection](https://huggingface.co/collections/BurnyCoder/eureka-digits-luna-6ae39b1a9fbf13c0618b07a5)
+[Interactive results](https://burnycoder.github.io/eureka-digits-luna/) · [Paper](cycles/001/reports/paper.pdf) · [Model bundle](https://huggingface.co/BurnyCoder/eureka-digits-luna-models) · [Shared project collection](https://huggingface.co/collections/BurnyCoder/auto-eureka-scientist-6ae3ae37b267f00aef999f75)
 
 ## Reproduction and provenance
 
